@@ -17,3 +17,8 @@ function inserirNome(){
   anoLetivo: 'Ensino Médio',
   materiasFavoritas: [EducaçãoFisica,artes,robotica]
   }
+  
+    console.log(aluno1.nome);
+    console.log(aluno1.idade);
+     console.log(aluno1.materiasFavoritas);
+      console.log(aluno1.materiasFavoritas[1]);
