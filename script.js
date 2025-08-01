@@ -9,4 +9,11 @@ function inserirNome(){
 
   lista.textContent = linguagens[0];
   lista.textContent = linguagens[1];
-  lista.textContent = linguagens[2]; 
+  lista.textContent = linguagens[2];
+  
+  let aluno1 ={
+  nome: 'Dener',
+  idade: '17',
+  anoLetivo: 'Ensino Médio',
+  materiasFavoritas: [EducaçãoFisica,artes,robotica]
+  }
