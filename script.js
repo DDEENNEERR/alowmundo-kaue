@@ -19,6 +19,12 @@ function inserirNome(){
   }
   
     console.log(aluno1.nome);
-    console.log(aluno1.idade);
-     console.log(aluno1.materiasFavoritas);
-      console.log(aluno1.materiasFavoritas[1]);
+      console.log( aluno1.idade);
+        console.log(aluno1.materiasFavoritas);
+          console.log(aluno1.materiasFavoritas[1]);
+           
+          const.objeto = document.querySelector('#aluno');
+            objeto.contextContent = aluno1.nome;
+              objeto.contextContent = aluno1.idade;
+                objeto.contextContent = aluno1.materiasFavoritas[1];
+              
